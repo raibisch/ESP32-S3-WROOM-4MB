@@ -12,8 +12,8 @@ change settings in *platformio.ini*
 "4mb_max_partition.csv" for a big program-space (not ota-update) or "4mb_2ota_partition.csv" for 2 ota partition (ota-update posible and data in spiffs)
 
 ### Prerequisites
-Software: platformio and visual-studio code
-Hardware: **ESP32-S3-Wroom-1-N4** this Module has only 4MB-Flash and no PSRAM !
+- Software: platformio and visual-studio code
+- Hardware: **ESP32-S3-Wroom-1-N4** this Module has only 4MB-Flash and no PSRAM !
 
 
 ### Installing
