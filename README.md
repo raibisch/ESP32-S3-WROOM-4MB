@@ -9,7 +9,7 @@ change settings in *platformio.ini*
 -  set upload-port
 
 - uncomment one of the partition examples 
-"4mb_noota_partition.csv" for a big program-space (not ota-update) or "4mb_ota_partition.csv" for 2 ota partition (ota-update posible)
+"4mb_max_partition.csv" for a big program-space (not ota-update) or "4mb_2ota_partition.csv" for 2 ota partition (ota-update posible and data in spiffs)
 
 ### Prerequisites
 platformio and visual-studio code... and a ESP32-S3-WROOM Module with only 4MB-Flash (no PSRAM)
