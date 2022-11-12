@@ -12,7 +12,8 @@ change settings in *platformio.ini*
 "4mb_max_partition.csv" for a big program-space (not ota-update) or "4mb_2ota_partition.csv" for 2 ota partition (ota-update posible and data in spiffs)
 
 ### Prerequisites
-platformio and visual-studio code... and a ESP32-S3-WROOM Module with only 4MB-Flash (no PSRAM)
+Software: platformio and visual-studio code
+Hardware: **ESP32-S3-Wroom-1-N4** this Module has only 4MB-Flash and no PSRAM !
 
 
 ### Installing
@@ -20,3 +21,6 @@ install platformio in visual-studio code
 
 ### Usage <a name = "usage"></a>
 addapt the blink example to your needs
+
+### Remark:
+the LED definiton in "he_32S3wroom4mb.h" is only for internal use in my test hardware
